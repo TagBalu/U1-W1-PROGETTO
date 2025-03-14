@@ -1,1 +1,66 @@
-/* Your styles here */
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  max-width: 400px;
+  margin-inline: auto;
+  line-height: 1.65;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.2rem;
+}
+/* HEADER */
+header {
+  text-align: center;
+  background-color: black;
+}
+header div {
+  height: 12vh;
+}
+/* MAIN */
+main {
+  text-align: center;
+}
+.topbar {
+  background-image: url(../images/banner.jpg);
+  padding-block: 1.3rem;
+  background-position-y: center;
+  background-size: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h1,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+button {
+  border-style: none;
+  background-color: #f04c2f;
+  color: white;
+  padding-block: 0.35rem;
+  border: 1px;
+  margin-top: 1rem;
+}
+main img {
+  border-radius: 200px;
+  width: 70%;
+  padding-top: 2rem;
+}
+/* ELEMENTI NEL MAIN */
+/* FORM */
+/* ELEMENTI NELL'ASIDE*/
+/* FOOTER */
