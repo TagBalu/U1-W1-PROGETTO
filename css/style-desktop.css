@@ -14,11 +14,14 @@ body {
 }
 /* HEADER */
 header {
-  text-align: center;
+  text-align: left;
   background-color: black;
+  padding-block: 2rem;
 }
-header div {
-  height: 12vh;
+header img {
+  height: 8vh;
+  width: 20rem;
+  margin-left: 40px;
 }
 /* MAIN */
 main {
@@ -26,7 +29,7 @@ main {
 }
 .topbar {
   background-image: url(../images/banner.jpg);
-  padding-block: 1.3rem;
+  padding-block: 10rem;
   background-position-y: center;
   background-size: 100%;
   text-align: center;
@@ -70,7 +73,7 @@ main img {
 .bottombar {
   color: white;
   background-color: #e22d0e;
-  height: 50vh;
+  height: 23vh;
 }
 h2 {
   font-size: 2rem;
@@ -80,10 +83,15 @@ h2 {
 .bottombar p {
   padding-block: 1rem;
 }
-.centrale {
+.centrale,
+.fotocentrale {
   display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
+.fotocentrale {
+  width: 33%;
+}
 /* ELEMENTI NELL'ASIDE*/
 aside {
   text-align: center;
@@ -122,7 +130,7 @@ footer a {
 }
 footer hr {
   color: inherits;
-  width: 50%;
+  width: 15%;
   margin-block: 2rem;
 }
 footer h5 {
