@@ -5,9 +5,9 @@ body {
   max-width: 400px;
   margin-inline: auto;
   line-height: 1.65;
-  font-family: "Roboto", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 1.2rem;
@@ -83,11 +83,12 @@ h2 {
 /* ELEMENTI NELL'ASIDE*/
 aside {
   text-align: center;
-  padding-block: 4rem;
+  padding-top: 4rem;
 }
 aside div {
   border: 1px solid #dee1e3;
-  margin-block: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
   border-collapse: collapse;
 }
 aside image {
@@ -101,3 +102,24 @@ aside p {
   padding-bottom: 2rem;
 }
 /* FOOTER */
+footer {
+  text-align: center;
+  color: white;
+  background-color: #25a2c3;
+}
+footer a {
+  color: inherit;
+}
+footer hr {
+  color: inherits;
+  width: 50%;
+  margin-block: 2rem;
+}
+footer h5 {
+  font-size: 2.5rem;
+  padding-block: 2rem;
+}
+.copy {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
