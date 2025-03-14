@@ -36,7 +36,8 @@ h1 {
   margin-bottom: 1rem;
 }
 h1,
-h3 {
+h3,
+h4 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -54,13 +55,49 @@ button {
   padding-block: 0.35rem;
   border: 1px;
   margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
 }
 main img {
   border-radius: 200px;
   width: 70%;
   padding-top: 2rem;
 }
+.ultimap {
+  padding-bottom: 5rem;
+}
 /* ELEMENTI NEL MAIN */
-/* FORM */
+.bottombar {
+  color: white;
+  background-color: #e22d0e;
+  height: 50vh;
+}
+h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.bottombar p {
+  padding-block: 1rem;
+}
 /* ELEMENTI NELL'ASIDE*/
+aside {
+  text-align: center;
+  padding-block: 4rem;
+}
+aside div {
+  border: 1px solid #dee1e3;
+  margin-block: 8rem;
+  border-collapse: collapse;
+}
+aside image {
+  border-collapse: collapse;
+}
+aside h4 {
+  padding: 1rem;
+}
+aside p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
 /* FOOTER */
